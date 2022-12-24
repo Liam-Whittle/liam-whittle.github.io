@@ -106,8 +106,8 @@ post:
 
 # for post-list layout
 post-list:
-  title: Blog
-  button_name: Blog
+  title: Posts
+  button_name: Posts
   upside_down_tabs:
     tab:
       all: All
@@ -132,7 +132,7 @@ post-list:
 home:
   title: Welcome
   button_name: Home
-  new_posts_title: New Articles
+  new_posts_title: New Posts
   new_posts_show_more_button: View More ...
 
 # for archives layout
@@ -167,7 +167,7 @@ privacy-policy:
 
 # constants to be replaced for
 constants:
-  greetings: Hello
+  greetings: Hello & Welcome
   welcome: Welcome
   sample: Sample
 

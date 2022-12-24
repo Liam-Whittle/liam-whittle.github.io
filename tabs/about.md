@@ -31,7 +31,7 @@ img: ":about.jpg"
 # exclude from search engines
 #search_engine_exclude: true
 # to disable this page, simply set published: false or delete this file
-#published: false
+published: false
 ---
 
 {%- comment -%} Please delete below and place your page content here {%- endcomment -%}
