@@ -2,10 +2,10 @@
 # Owner's Personal Information
 ###########################################################
 # This is your brand name
-brand: "Project Archive"
+brand: "Project Vault"
 
 # text below the brand name
-brand_sub_text: "Menu"
+brand_sub_text: "Liam C. W."
 
 # used for seo meta post author (if it's not defined in post)
 name: "Liam Whittle"
@@ -13,7 +13,7 @@ name: "Liam Whittle"
 # home page top header texts
 home:
   # you can also use $site_brand, $site_greetings, $site_welcome in line1 and line2 for replacing texts.
-  top_header_line1: "Project Archive"
+  top_header_line1: "Preface"
   # if commented, top header will be a single line
   top_header_line2: ""
 
