@@ -7,20 +7,20 @@
 // otherwise it will be added to all output css files
 
 // dark color scheme definitions
-$brand-color-dark: #71b2ff;
+$brand-color-dark: #ffffff;
 $main-background-dark: #191919;
-$button-color-dark: #666;
+$button-color-dark: rgb(158, 158, 158);
 $menu-background-dark: #252525;
-$header-color-dark: #c0c0c0;
+$header-color-dark: #fafafa;
 $container-background-dark: #2a2a2a;
 $hr-color-dark: #333;
-$anchor-text-color-dark: #3389de;
+$anchor-text-color-dark: #a51010;
 
 // layout: default
 // default/body-main-styles
 %body-main-styles-colors-dark {
   --body-anchor-text-color: #{$anchor-text-color-dark};
-  --body-anchor-hover-text-color: #2f6597;
+  --body-anchor-hover-text-color: #ff0000;
   --body-text-color: #b0b0b0;
   --body-header-text-color: #{$header-color-dark};
   --body-background-color: #{$main-background-dark};
@@ -220,7 +220,7 @@ $anchor-text-color-dark: #3389de;
 %home-heading-colors-dark {
   --home-heading-message-color: #fff;
   --home-intro-text-header-color: #{$header-color-dark};
-  --home-heading-shadow-color: #888b8b55;
+  --home-heading-shadow-color: #888b8b00;
 }
 // layout: about
 // about/about-style

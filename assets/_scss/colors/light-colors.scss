@@ -7,21 +7,21 @@
 // otherwise it will be added to all output css files
 
 // light color scheme definitions
-$brand-color-light: #416289;
-$main-background-light: #efefef;
-$button-color-light: #a19e9e;
-$menu-background-light: #f9f9f9;
-$header-color-light: #5f5e5e;
-$container-background-light: #fff;
-$hr-color-light: #eee;
-$anchor-text-color-light: #3389de;
+$brand-color-light: #300000;
+$main-background-light: #f7f7f7;
+$button-color-light: #929292;
+$menu-background-light: #ffffff;
+$header-color-light: #9c0000;
+$container-background-light: rgb(255, 255, 255);
+$hr-color-light: rgb(0, 0, 0);
+$anchor-text-color-light: #970000;
 
 // layout: default
 // default/body-main-styles
 %body-main-styles-colors-light {
   --body-anchor-text-color: #{$anchor-text-color-light};
-  --body-anchor-hover-text-color: #2f6597;
-  --body-text-color: #6a6a6a;
+  --body-anchor-hover-text-color: #ff0000;
+  --body-text-color: #1b1b1b;
   --body-header-text-color: #{$header-color-light};
   --body-background-color: #{$main-background-light};
   --body-hr-color: #{$hr-color-light};
@@ -34,7 +34,7 @@ $anchor-text-color-light: #3389de;
 // default/contact
 %contact-colors-light {
   --contact-icons-color: #{$button-color-light};
-  --contact-icons-hover-color: #303033;
+  --contact-icons-hover-color: #333030;
   --contact-header-color: #{$button-color-light};
   > ul > li > a > img {
     filter: invert(70%) sepia(0%) saturate(179%) hue-rotate(158deg)
@@ -210,7 +210,7 @@ $anchor-text-color-light: #3389de;
 %home-heading-colors-light {
   --home-heading-message-color: #fff;
   --home-intro-text-header-color: #{$header-color-light};
-  --home-heading-shadow-color: #77747455;
+  --home-heading-shadow-color: #77747400;
 }
 // layout: about
 // about/about-style

@@ -167,9 +167,9 @@ privacy-policy:
 
 # constants to be replaced for
 constants:
-  greetings: Welcome to my Vault 👋
+  greetings: Welcome👋
   welcome: Welcome
-  sample: Hello there. This is a website that i'm currently hosting on my github pages as an indepth insight into every one of my personal projects. I'll be using this platform to go into detail about my current sofware development ventures whether it be a mobile applications or any other big or small projects I could have cookin' in the oven. As usual, I will always be itching to try any "New & Upcoming" technologies as they surface over time and hope this site can serve as a venue for tracking my progress as i grow my capabilites as a developer.
+  sample: Hello there. This is a website that i'm currently hosting on my github pages as an indepth insight into every one of my personal projects. I'll be using this platform to go into detail about my current sofware development ventures whether it be a mobile application or any other big or small projects I could have cookin' in the oven. As always, I will be itching to try any "New & Upcoming" technologies as they surface over time and hope this site can serve as a venue for tracking my progress as i grow my capabilites as a developer.
 
 # for contact form
 contact_form:

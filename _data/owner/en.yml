@@ -2,7 +2,7 @@
 # Owner's Personal Information
 ###########################################################
 # This is your brand name
-brand: "Project Vault"
+brand: "Project Journal"
 
 # text below the brand name
 brand_sub_text: "Liam C. W."
@@ -13,7 +13,7 @@ name: "Liam Whittle"
 # home page top header texts
 home:
   # you can also use $site_brand, $site_greetings, $site_welcome in line1 and line2 for replacing texts.
-  top_header_line1: "Preface"
+  top_header_line1: "Home"
   # if commented, top header will be a single line
   top_header_line2: ""
 
