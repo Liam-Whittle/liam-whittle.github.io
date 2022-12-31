@@ -9,7 +9,7 @@
 // light color scheme definitions
 $brand-color-light: #ffffff;
 $main-background-light: #f7f7f7;
-$button-color-light: #929292;
+$button-color-light: #d3d3d3;
 $menu-background-light: #6d202f;
 $header-color-light: #9c0000;
 $container-background-light: rgb(255, 255, 255);
@@ -69,15 +69,15 @@ $anchor-text-color-light: #970000;
 // default/nav/navigation-buttons
 %navigation-buttons-colors-light {
   --side-top-nav-buttons-text-color: #{$button-color-light};
-  --side-top-nav-buttons-hover-text-color: #303033;
-  --side-top-nav-buttons-active-text-color: #c7c7c7;
+  --side-top-nav-buttons-hover-text-color: #ffffff;
+  --side-top-nav-buttons-active-text-color: #ffffff;
 }
 // default/nav/navigation
 %navigation-colors-light {
   --side-top-nav-brand-text-color: #{$brand-color-light};
   --side-top-nav-brand-hover-text-color: #{$header-color-light};
   --side-top-nav-background-color: #{$menu-background-light};
-  --side-nav-sub-title-text-color: #6e6e6e;
+  --side-nav-sub-title-text-color: #a8a8a8;
   --side-nav-copyright-text-color: #{$button-color-light};
   --side-nav-right-border-color: #{$hr-color-light};
 }
@@ -196,7 +196,7 @@ $anchor-text-color-light: #970000;
   --tabs-border-color: #bfbfbf;
   --tab-panel-background-color: #{$menu-background-light};
   --tab-button-active-background-color: #{$menu-background-light};
-  --tab-button-active-text-color: #555;
+  --tab-button-active-text-color: rgb(175, 175, 175);
   --tab-button-background-color: #{$menu-background-light};
   --tab-button-hover-background-color: #{$main-background-light};
   --tab-button-hover-text-color: #555;
