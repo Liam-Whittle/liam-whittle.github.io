@@ -7,10 +7,10 @@
 // otherwise it will be added to all output css files
 
 // light color scheme definitions
-$brand-color-light: #300000;
+$brand-color-light: #ffffff;
 $main-background-light: #f7f7f7;
 $button-color-light: #929292;
-$menu-background-light: #ffffff;
+$menu-background-light: #6d202f;
 $header-color-light: #9c0000;
 $container-background-light: rgb(255, 255, 255);
 $hr-color-light: rgb(0, 0, 0);
@@ -70,7 +70,7 @@ $anchor-text-color-light: #970000;
 %navigation-buttons-colors-light {
   --side-top-nav-buttons-text-color: #{$button-color-light};
   --side-top-nav-buttons-hover-text-color: #303033;
-  --side-top-nav-buttons-active-text-color: #303033;
+  --side-top-nav-buttons-active-text-color: #c7c7c7;
 }
 // default/nav/navigation
 %navigation-colors-light {
