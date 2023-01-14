@@ -14,14 +14,14 @@ $menu-background-dark: #252525;
 $header-color-dark: #fafafa;
 $container-background-dark: #2a2a2a;
 $hr-color-dark: #333;
-$anchor-text-color-dark: #a51010;
+$anchor-text-color-dark: #b9cfdb;
 
 // layout: default
 // default/body-main-styles
 %body-main-styles-colors-dark {
   --body-anchor-text-color: #{$anchor-text-color-dark};
-  --body-anchor-hover-text-color: #ff0000;
-  --body-text-color: #b0b0b0;
+  --body-anchor-hover-text-color: #ececec;
+  --body-text-color: #d1d1d1;
   --body-header-text-color: #{$header-color-dark};
   --body-background-color: #{$main-background-dark};
   --body-hr-color: #{$hr-color-dark};

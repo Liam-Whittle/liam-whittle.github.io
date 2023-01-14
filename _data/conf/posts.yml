@@ -97,7 +97,7 @@ post_query_tabs_all_button_enable: false
 #                Share Buttons
 ###########################################################
 # this enables share buttons at the bottom of the post pages
-share_buttons: true
+share_buttons: false
 
 # this adds hover effect to share buttons
 share_buttons_hover_effect: "hover-effect-big"

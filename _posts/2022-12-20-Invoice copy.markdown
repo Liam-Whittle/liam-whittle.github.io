@@ -1,22 +1,22 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
-lng_pair: id_Examples
-title: Examples
+lng_pair: id_Invoice
+title: Labour Invoice Generator
 
 # post specific
 # if not specified, .name will be used from _data/owner/[language].yml
-author: Mr. Green's Workshop
+author: Liam Whittle
 # multiple category is not supported
-category: jekyll
+category: Angular
 # multiple tag entries are possible
-tags: [jekyll, sample, example post]
+tags: [Angular, Mobile App]
 # thumbnail image for post
-img: ":post_pic1.jpg"
+img: ":inv.jpg"
 # disable comments on this page
 #comments_disable: true
 
 # publish date
-date: 2022-02-10 08:11:06 +0900
+date: 2022-12-20 00:00:00 +0900
 
 # seo
 # if not specified, date will be used.
@@ -34,12 +34,12 @@ date: 2022-02-10 08:11:06 +0900
 # exclude from search engines
 #search_engine_exclude: true
 # to disable this page, simply set published: false or delete this file
-#published: false
+published: false
 ---
 
 <!-- outline-start -->
 
-This is an example page to display markdown related styles for Mr. Green Jekyll Theme.
+A small ionic angular typescript mobile application for generating & saving labour invoices.
 
 <!-- outline-end -->
 
