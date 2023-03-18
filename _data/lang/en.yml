@@ -169,7 +169,7 @@ privacy-policy:
 constants:
   greetings: Welcome
   welcome: Welcome
-  sample: "Hello there👋 \n\n This is a website that i'm currently hosting on my github pages. It's serves an indepth insight into every one of my personal software projects & upcoming future projects such as: desktop apps, mobile apps, useful scripts, miscellaneous projects, ect. \n\n **Also checkout my recent projects below** ▼"
+  sample: "Hello there👋 \n\n This is a website that i'm currently hosting on my github pages. It's serves an indepth insight into every one of my personal software projects & upcoming future personal projects such as: desktop apps, mobile apps, useful scripts, miscellaneous projects, ect. \n\n **Also checkout my recent projects below** ▼"
 
 # for contact form
 contact_form:

@@ -54,53 +54,51 @@ An educational ionic angular typescript mobile application for logging and trans
 
 
 
-#### Project Summary
-This app is my second attempt at building an angular mobile application using the **[ionic](https://ionicframework.com/)** framework, so its a little rough around the edges in some spots... anyhow, this time i wanted to make an app that would help me remember more french vocab, and at a much faster pace. 
+#### Project Introduction
+This app is my second attempt at building an angular mobile application using the **[ionic](https://ionicframework.com/)** framework, so it's a little rough around the edges. Anyhow, this time i wanted to make an app that would help me remember new french vocab, and at a much faster pace. 
 
 But why **_French_** you ask?
 
-French has close to 80 million speakers in 29 countries across the globe, making it a very versitile language for anyone to learn. Having said that, i took it apon myself to try and give learning it a go... to no ones surprise it's a very difficult language and takes much more effort than just using duolingo once a day. 😓
+French has close to 80 million speakers in 29 countries across the globe, making it a very versatile language for anyone to learn ( I also just like the way it sounds ). Having said that, I took it apon myself to try and give learning it a go... To no one's surprise, it's a very difficult language and takes much more effort than just using Duolingo once a day. 😓
 
-But after not much contemplation, my solution to my tribulations were: _"why don't i just make an app to log the words im learning?"_, and soon after birthed a new project i could distract myself with.
+After not much contemplation, the solution to my tribulations was: _"why don't I just make an app to log the words im learning?"_.
 
-With plenty of reusable code from my **[previous project](/posts/2022-12-20-Invoice)** in the year it didn't take long to come up with a useable draft to work with. 
+Finally. A new project i could distract myself with.
 
-**Note:** This project is purely for demonstration purposes and i do not intend to monetize it in anyway. The source code and resources are all on my github and is all open source
+With plenty of reusable code from my **[previous project](/posts/2022-12-20-Invoice)** in the year it didn't take long to come up with a usable draft to work with. 
+
+**Note:** This project is purely for my personal education, and I do not intend to monetize it in anyway. The source code and resources are all on my github and is all open source
 
 ***
 #### Project Details
 ##### Functionality
-My original intention for this application was to have an empty list that would essentially be a virtual vocabulary, one that you could add a french noun that you were unsure of and log it next to its gender, and this would all be done manually by the user to solidify the connection in your memory of which gender goes with which noun. 
+My original intention for this application was to have an empty list that would essentially be a virtual vocabulary, one that you could add a French noun that you were unsure of and log it next to its gender, and this would all be done manually by the user to solidify the connection in your memory of which gender goes with which noun. 
 
-Aside from this basic function, I also wanted to be able to delete, edit and view translations of the nouns being stored in the list. This list would also have a search functionality and a convenient colour next to each added list item so you could know at a quick glance which gender a noun had.
+Aside from this basic function, I also wanted to be able to delete, edit, and view translations of the nouns being stored in the list. This list would also have search functionality and a convenient colour next to each added list item so you could know at a quick glance which gender a noun had.
 
-At a certain point in development I had noticed that I could do something similar but instead with a verbs list, and keeping the same functionality as the nouns, it could have conjugations and its tenses instead of direct english translations.
+At a certain point in development, I noticed that I could do something similar, but instead with a verb list. Keeping the same functionality as the nouns, it could have conjugations and its tenses instead of direct English translations.
 
 ##### Design
-As for design, I wanted the first thing you see to be the nouns list as it would most likely be the most used functionality in my opinion. The menu I used was a side nav bar as it was convenient and didnt take up to much real estate on a mobile device like a tab nav bar would, and the colours were completely arbitrary so i just went with a black and yellow theme which actually turn out looking quite nice. Other than that design wasn't too much of an issue as the app only had a limited amount of UI.
+As for design, I wanted the first thing you see to be the nouns list, as it would most likely be the most used functionality. The menu I used was a side nav bar as it was convenient and didn't take up too much real estate on a mobile device like a tab nav bar would, and the colours were completely arbitrary, so i just went with a black and yellow theme, which actually turned out looking quite nice. Other than that, design wasn't too much of an issue as the app only had a limited amount of UI.
 
 ##### Frameworks
-**[Ionic](https://ionicframework.com/)** framework makes a return in this project, and it has an abundance of useful tools and components that are not just nice to look at, but are also responsive on mobile.
+**[Ionic](https://ionicframework.com/)** framework makes a return in this project, and it has an abundance of useful tools and components that are not just nice to look at but are also responsive on mobile.
 
-I chose angular as a front end framework for this project partly due to me having a familiarity with the language, aswell as having **[two way data binding](https://angular.io/guide/two-way-binding)**  it made it slighty easier to manipulate data... I also just like the look of the syntax. Although i would like to use something like **[react](https://reactjs.org/)** in a future project. 
+I chose Angular as a front end framework for this project partly due to my familiarity with the language, as well as the fact that having **[two-way data binding](https://angular.io/guide/two-way-binding)** made it slightly easier to manipulate data... I also just like the look of the syntax. Although I would like to use something like **[React](https://reactjs.org/)** in a future project. 
 
 ##### Backend
-**[SQLite](https://www.sqlite.org/index.html)** was used to store and retrieve basic values in a local database table stored on a device. Singular nouns/verbs, with there respective **[gender](https://en.wikipedia.org/wiki/Grammatical_gender)** were passed from the database to an rxjs observable or behaviourObject that were used for basic **[CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete)** operations across the application.
+**[SQLite](https://www.sqlite.org/index.html)** was used to store and retrieve basic values in a local database table stored on a device. Singular nouns and verbs with thier respective **[genders](https://en.wikipedia.org/wiki/Grammatical_gender)** were passed from the database to an rxjs observable or behaviour object that were used for basic **[CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete)** operations across the application.
 
-As for the API... it was _really_ bad. 
+With wishful thinking, I had hoped to find a free public API that could handle translating **any** French word, whether it be a noun or a verb, but no such API exists that can do both functionalities, at least not one that is free. 
 
-With wishful thinking I had hoped to find a free public API that could handle translating **any** french word whether it be a noun or a verb, however no such API exist that can do both functionalities, atleast none that were free. 
+I eventually settled on a free **[API](https://github.com/imankulov/linguee-api)** that converts **[linguees](https://www.linguee.com/)** HTML responses to easy-to-use JSON API and used that primarily for translating nouns; as for verbs, I had used another free **[API](https://rapidapi.com/conjugaisonapp/api/french-conjugaison/pricing)** online that could return all the  conjugations for French verbs, and thankfully had no problems with that. 
 
-I eventually settled on a free **[API](https://github.com/imankulov/linguee-api)** that converts **[linguees](https://www.linguee.com/)** HTML responses to easy-to-use JSON API and used that primarily for translating nouns, as for verbs i had used another free **[API](https://rapidapi.com/conjugaisonapp/api/french-conjugaison/pricing)** online that could return all the  conjugations for french verbs and thankfully had no problems with that. 
-
-This was also my first time using a Rest API in a big project, so it was very poorly done and had many conflicting problems with the rest of the app. Things eventually worked out in the end, but if there were one thing i could've done better, then i definitely could've been less stingy and used an API that could do both translations.
-
-**As of now i have disable connection to both API's on my github**
+**As of now, I've disabled all connections to both APIs as a precautionary measure to prevent an influx of API calls.**
 
 ***
 
 #### Closing Thoughts
-Overall this was a very fun project, although its isn't fully functional on anything other than my original device... it still was an extremely useful learning experience and i'll be taking that knowledge into future projects going forth.  
+Dispite the potential for this app to be beneficial for my learning, I decided not to spend funds on upkeep for potential mass API calls, these costs can add up in price over time, unfortunately. This project is mostly just educational and a proof of concept more than an app built for utilization, but it was fun to experiment with and build as a more comprehensive predececor to my **[previous application](/posts/2022-12-20-Invoice)** and to tinker around in the process of manipulating a vast amount of JSON API data.
 
 #### App Demo & Images
 W.I.P
