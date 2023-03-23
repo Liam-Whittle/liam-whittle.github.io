@@ -47,7 +47,7 @@ A small ionic angular typescript mobile application for generating & saving labo
 
 
 {:data-align="center"}
-![invoice generator](:invcov.jpg){:data-align="center"}
+![invoice generator](:invc.jpg){:data-align="center"}
 
 ### Github
 
