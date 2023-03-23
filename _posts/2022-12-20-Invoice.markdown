@@ -45,6 +45,54 @@ A small ionic angular typescript mobile application for generating & saving labo
 
 ***
 
-#### Coming Soon
 
-W.I.P
+{:data-align="center"}
+![invoice generator](:invcov.jpg){:data-align="center"}
+
+### Github
+
+- [Labour Invoice Generator](https://github.com/Liam-Whittle/labour-invoice-generator)
+
+***
+
+
+#### Project Introduction
+Hello there. 
+
+If you happened to stumbled apon this archive then first let me introduce myself, my name is **Liam**. 
+
+I am a passionate hobbyist software developer who like to make sofware that I find could be potentially useful to myself or others, but mostly, I make these projects as a personal learning experience.
+
+I want to use this platform to archive my journey throughout the many future project I hope to preserve on this website. 🙂 
+
+Now that we are _acquainted_.
+
+For this project, I wanted to make a mobile application made using the **[ionic](https://ionicframework.com/)** framework, a useful tool that will come in handy when making a cross platform mobile application and one I wanted to learn for many future mobile projects. 
+
+I wanted to make an app that would be both simple to use and useful to my everyday life.
+
+So first off, a little background knowledge. As a contractor for a building company, I myself, am required to email my employer, at minimum, a readable file that details the hours, days and pay rate of every week I work with a total amount owed (with tax deducted ofcourse). When it comes to trying to write up a spreadsheet every week, if I'm honest, it's not a very difficult task, infact in some cases I could just copy and paste my previous invoice if there weren't many changes between weeks.
+
+**However**, after hundreds of invoices manually sent by email week after week, it can start to get a little tedious.
+
+My initial drafted idea, simply enough, was an app that could automatically generate those weekly invoices, even if it only saves me a marginal amount of time per week...
+
+**Note:** This project is purely for my personal education, and I do not intend to monetize it in anyway. The source code and resources are all on my github and is all open source
+
+***
+#### Project Details
+##### Functionality
+
+
+##### Design
+
+##### Frameworks
+
+##### Backend
+
+***
+
+#### Closing Thoughts
+
+#### App Demo & Images
+

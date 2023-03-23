@@ -93,13 +93,16 @@ With wishful thinking, I had hoped to find a free public API that could handle t
 
 I eventually settled on a free **[API](https://github.com/imankulov/linguee-api)** that converts **[linguees](https://www.linguee.com/)** HTML responses to easy-to-use JSON API and used that primarily for translating nouns; as for verbs, I had used another free **[API](https://rapidapi.com/conjugaisonapp/api/french-conjugaison/pricing)** online that could return all the  conjugations for French verbs, and thankfully had no problems with that. 
 
-**As of now, I've disabled all connections to both APIs as a precautionary measure to prevent an influx of API calls.**
+**As of now, I've disabled connections to the APIs as a measure to prevent an influx of API calls.**
 
 ***
 
 #### Closing Thoughts
-Dispite the potential for this app to be beneficial for my learning, I decided not to spend funds on upkeep for potential mass API calls, these costs can add up in price over time, unfortunately. This project is mostly just educational and a proof of concept more than an app built for utilization, but it was fun to experiment with and build as a more comprehensive predececor to my **[previous application](/posts/2022-12-20-Invoice)** and to tinker around in the process of manipulating a vast amount of JSON API data.
+Since setting the repo for this project public, I have subsequently decided to cease any excessive API calls by removing all paid API keys due to the increasing costs of numerous API calls from users. However, this project was a proof of concept more so than an app built for utilization.
+
+Making this project was a fun and entertaining educational endeavor for me, and was an experimental application in discovering any additional features that I could add to my **[previous angular](/posts/2022-12-20-Invoice)** project.
 
 #### App Demo & Images
-W.I.P
+![noun list](:noun.gif){:data-align="left"}{:width="350px"}
+![verb list](:verb.gif){:data-align="right"}{:width="355px"}
 
