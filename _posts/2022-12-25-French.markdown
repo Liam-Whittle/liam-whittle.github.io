@@ -98,7 +98,7 @@ I eventually settled on a free **[API](https://github.com/imankulov/linguee-api)
 ***
 
 #### Closing Thoughts
-Since setting the repo for this project public, I have subsequently decided to cease any excessive API calls by removing all paid API keys due to the increasing costs of numerous API calls from users. However, this project was a proof of concept more so than an app built for utilization.
+Since setting the repo for this project public, I have subsequently decided to cease any excessive API calls by removing all paid API keys due to the increasing costs that numerous API calls from users would cause. However, this project was a proof of concept more so than an app built for utilization.
 
 Making this project was a fun and entertaining educational endeavor for me, and was an experimental application in discovering any additional features that I could add to my **[previous angular](/posts/2022-12-20-Invoice)** project.
 
