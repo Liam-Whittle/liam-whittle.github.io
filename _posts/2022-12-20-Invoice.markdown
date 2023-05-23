@@ -151,5 +151,5 @@ As for mobile side of things I've used **[Ionic](https://ionicframework.com/)** 
 This project was a huge success. For weeks now I have been utilising this app as a way to send invoices to my employer and it saves me just that little extra time just as intended. This was also my first time delving into both **[Ionic](https://ionicframework.com/)** & **[Angular](https://en.wikipedia.org/wiki/Angular_(web_framework))** framework and this process really taught me **alot** about the structure and syntax of angular web apps. Moving foward with future projects in mind, the insight i have gained from this project has been extremely valuable.
 
 #### App Preview
-![Invoice Preview](:preview.jpg){:data-align="left"}{:width="350px"}
-![Invoice List](:invoice.jpg){:data-align="right"}{:width="350px"}
+![Invoice Preview](https://user-images.githubusercontent.com/60028961/209337358-8c4b4c27-d61b-45db-8d28-bbc9630bb7c7.jpg){:data-align="left"}{:width="350px"}
+![Invoice List](https://user-images.githubusercontent.com/60028961/209335614-5ad2d78f-98ec-4d9d-887f-fadcac05a01f.jpg){:data-align="right"}{:width="350px"}
