@@ -55,6 +55,54 @@ A small ionic angular typescript mobile application for generating & saving labo
 
 ***
 
+### Tools Used
+
+<img
+      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-plain.svg"
+      alt="Angular"
+      width="40"
+      height="40"
+      style="pointer-events: none"
+/>
+<img
+      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ionic/ionic-original.svg"
+      alt="Ionic"
+      width="40"
+      height="40"
+      style="pointer-events: none"
+/>
+<img
+      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg"
+      alt="SQLite"
+      width="40"
+      height="40"
+      style="pointer-events: none"
+/>
+<img
+      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-plain.svg"
+      alt="HTML5"
+      width="40"
+      height="40"
+      style="pointer-events: none"
+/>
+<img
+      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-plain.svg"
+      alt="CSS3"
+      width="40"
+      height="40"
+      style="pointer-events: none"
+/>
+<img
+      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg"
+      alt="Typescript"
+      width="40"
+      height="40"
+      style="pointer-events: none"
+/>
+
+
+***
+
 
 #### Project Introduction
 Hello there. 
@@ -82,17 +130,26 @@ My initial drafted idea, simply enough, was an app that could automatically gene
 ***
 #### Project Details
 ##### Functionality
+The main functionality of the app is in the style of CRUD (Create, Read, Update, Delete). I needed it to save invoices and edit/delete them if necessary. 
 
+**[CSV](https://en.wikipedia.org/wiki/Comma-separated_values)** files served as an easy layout of information that alot of well known applications like Google sheets or Microsoft Excel can format as a nice table with columns & rows and as such decided to use CSV as the main layout for the invoices.
 
 ##### Design
+I wanted to keep the design very clean & basic with mostly Ionic components that could serve as a base for page designs, I firstly needed a list that could hold and display every invoice as it's own editable item, that you could swipe and see options for deleting and editing, other than that i needed way to add new invoices and view them so i thought a floating action button and pop up modals were appropiate.
 
 ##### Frameworks
+I Decided to use **[Angular](https://en.wikipedia.org/wiki/Angular_(web_framework))** for this project, as its used by alot of popular companies like google, paypal, microsoft and many other companies as a tool for building cross-platform apps and web applications. Angular also has alot of support behind it with it being open source and maintained by some very smart Google engineers every version since its conseption.
+
+As for mobile side of things I've used **[Ionic](https://ionicframework.com/)** Framework as a helpful tool to take out the need for recreating the basic mobile template, it also has alot of libraries and support for mobile deployment and designing.
 
 ##### Backend
+**[SQLite](https://www.sqlite.org/index.html)** was used to store and retrieve basic values in a local database table stored on a device. 
 
 ***
 
 #### Closing Thoughts
+This project was a huge success. For weeks now I have been utilising this app as a way to send invoices to my employer and it saves me just that little extra time just as intended. This was also my first time delving into both **[Ionic](https://ionicframework.com/)** & **[Angular](https://en.wikipedia.org/wiki/Angular_(web_framework))** framework and this process really taught me **alot** about the structure and syntax of angular web apps. Moving foward with future projects in mind, the insight i have gained from this project has been extremely valuable.
 
-#### App Demo & Images
-
+#### App Preview
+![Invoice Preview](:preview.jpg){:data-align="left"}{:width="350px"}
+![Invoice List](:invoice.jpg){:data-align="right"}{:width="350px"}

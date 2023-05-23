@@ -52,6 +52,52 @@ An educational ionic angular typescript mobile application for logging and trans
 
 ***
 
+### Tools Used
+
+<img
+      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-plain.svg"
+      alt="Angular"
+      width="40"
+      height="40"
+      style="pointer-events: none"
+/>
+<img
+      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ionic/ionic-original.svg"
+      alt="Ionic"
+      width="40"
+      height="40"
+      style="pointer-events: none"
+/>
+<img
+      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg"
+      alt="SQLite"
+      width="40"
+      height="40"
+      style="pointer-events: none"
+/>
+<img
+      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-plain.svg"
+      alt="HTML5"
+      width="40"
+      height="40"
+      style="pointer-events: none"
+/>
+<img
+      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-plain.svg"
+      alt="CSS3"
+      width="40"
+      height="40"
+      style="pointer-events: none"
+/>
+<img
+      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg"
+      alt="Typescript"
+      width="40"
+      height="40"
+      style="pointer-events: none"
+/>
+
+***
 
 
 #### Project Introduction
@@ -60,10 +106,6 @@ This app is my second attempt at building an angular mobile application using th
 But why **_French_** you ask?
 
 French has close to 80 million speakers in 29 countries across the globe, making it a very versatile language for anyone to learn ( I also just like the way it sounds ). Having said that, I took it apon myself to try and give learning it a go... To no one's surprise, it's a very difficult language and takes much more effort than just using Duolingo once a day. 😓
-
-After not much contemplation, the solution to my tribulations was: _"why don't I just make an app to log the words im learning?"_.
-
-Finally. A new project i could distract myself with.
 
 With plenty of reusable code from my **[previous project](/posts/2022-12-20-Invoice)** in the year it didn't take long to come up with a usable draft to work with. 
 
@@ -81,24 +123,24 @@ At a certain point in development, I noticed that I could do something similar, 
 ##### Design
 As for design, I wanted the first thing you see to be the nouns list, as it would most likely be the most used functionality. The menu I used was a side nav bar as it was convenient and didn't take up too much real estate on a mobile device like a tab nav bar would, and the colours were completely arbitrary, so i just went with a black and yellow theme, which actually turned out looking quite nice. Other than that, design wasn't too much of an issue as the app only had a limited amount of UI.
 
-##### Frameworks
+##### Framework
 **[Ionic](https://ionicframework.com/)** framework makes a return in this project, and it has an abundance of useful tools and components that are not just nice to look at but are also responsive on mobile.
 
 I chose Angular as a front end framework for this project partly due to my familiarity with the language, as well as the fact that having **[two-way data binding](https://angular.io/guide/two-way-binding)** made it slightly easier to manipulate data... I also just like the look of the syntax. Although I would like to use something like **[React](https://reactjs.org/)** in a future project. 
 
 ##### Backend
-**[SQLite](https://www.sqlite.org/index.html)** was used to store and retrieve basic values in a local database table stored on a device. Singular nouns and verbs with thier respective **[genders](https://en.wikipedia.org/wiki/Grammatical_gender)** were passed from the database to an rxjs observable or behaviour object that were used for basic **[CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete)** operations across the application.
+**[SQLite](https://www.sqlite.org/index.html)** was used to store and retrieve basic values in a local database table stored on a device. Singular nouns and verbs with thier respective **[genders](https://en.wikipedia.org/wiki/Grammatical_gender)** were passed from the database to usable data on the frontend with rxjs that was used for basic **[CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete)** operations across the application.
 
 With wishful thinking, I had hoped to find a free public API that could handle translating **any** French word, whether it be a noun or a verb, but no such API exists that can do both functionalities, at least not one that is free. 
 
 I eventually settled on a free **[API](https://github.com/imankulov/linguee-api)** that converts **[linguees](https://www.linguee.com/)** HTML responses to easy-to-use JSON API and used that primarily for translating nouns; as for verbs, I had used another free **[API](https://rapidapi.com/conjugaisonapp/api/french-conjugaison/pricing)** online that could return all the  conjugations for French verbs, and thankfully had no problems with that. 
 
-**As of now, I've disabled connections to the APIs as a measure to prevent an influx of API calls.**
+**As of now, Connections to APIs have been disabled as a measure to prevent an influx of API calls.**
 
 ***
 
 #### Closing Thoughts
-Since setting the repo for this project public, I have subsequently decided to cease any excessive API calls by removing all paid API keys due to the increasing costs that numerous API calls from users would cause. However, this project was a proof of concept more so than an app built for utilization.
+Since setting the repo for this project public, I have subsequently decided to cease any excessive API calls by removing all paid API keys due to the increasing costs that numerous API calls from the public would cause. However, this project was a proof of concept more so than an app built for utilization.
 
 Making this project was a fun and entertaining educational endeavor for me, and was an experimental application in discovering any additional features that I could add to my **[previous angular](/posts/2022-12-20-Invoice)** project.
 
