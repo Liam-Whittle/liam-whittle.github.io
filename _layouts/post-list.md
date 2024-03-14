@@ -4,6 +4,7 @@
 # Licensed under MIT
 
 layout: default
+
 ---
 {% if site.data.conf.posts.post_query == true and site.data.conf.posts.post_query_tabs == true -%}
   {% include post-list/upside-down-tabs.html -%}

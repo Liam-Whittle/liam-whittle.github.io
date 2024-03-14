@@ -1,10 +1,5 @@
 ---
-layout: posts
-# multilingual page pair id, this must pair with translations of this page. (This name must be unique)
-lng_pair: id_posts
-
-# image for page specific usage
-img: ":posts-heading.jpg"
+layout: redirect
 # publish date (used for seo)
 # if not specified, site.time will be used.
 #date: 2022-03-03 12:32:00 +0000
@@ -33,11 +28,5 @@ img: ":posts-heading.jpg"
 # to disable this page, simply set published: false or delete this file
 # don't forget that this is root index.html. If you disable this, there will be no index.html page to open
 #published: false
+
 ---
-
-{%- comment -%} Please delete below and place your page content here {%- endcomment -%}
-
-{%- include util/auto-content-generator.liquid -%}
-{{ website_info_text_first }}
-
-{{ website_info_text_second }}
