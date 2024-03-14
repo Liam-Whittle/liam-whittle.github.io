@@ -1,7 +1,7 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
-lng_pair: id_Invoice
-title: Labour Invoice Generator
+lng_pair: id_Pokédex
+title: Voice Recognition Pokédex
 
 # post specific
 # if not specified, .name will be used from _data/owner/[language].yml
@@ -9,14 +9,14 @@ author: Liam Whittle
 # multiple category is not supported
 category: Angular
 # multiple tag entries are possible
-tags: [Angular, Mobile App, Finance]
+tags: [Angular, Mobile App, Entertainment]
 # thumbnail image for post
-img: ":inv.jpg"
+img: ":Poke.png"
 # disable comments on this page
 #comments_disable: true
 
 # publish date
-date: 2022-12-20 00:00:00 +0900
+date: 2024-03-12 00:00:00 +0900
 
 # seo
 # if not specified, date will be used.
@@ -39,19 +39,16 @@ date: 2022-12-20 00:00:00 +0900
 
 <!-- outline-start -->
 
-A small ionic angular typescript mobile application for generating & saving labour invoices.
+A fun small ionic angular typescript mobile application for retrieving Pokémon data and sound clips via voice recognition.
 
 <!-- outline-end -->
 
-***
-
-
 {:data-align="center"}
-![invoice generator](:invc.jpg){:data-align="center"}
+![Pokedex](:Poke.png){:data-align="center"}
 
 ### Github
 
-- [Labour Invoice Generator](https://github.com/Liam-Whittle/labour-invoice-generator)
+- [Pokedex](https://github.com/Liam-Whittle/pokedex-voice-recognition)
 
 ***
 
@@ -67,13 +64,6 @@ A small ionic angular typescript mobile application for generating & saving labo
 <img
       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ionic/ionic-original.svg"
       alt="Ionic"
-      width="40"
-      height="40"
-      style="pointer-events: none"
-/>
-<img
-      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg"
-      alt="SQLite"
       width="40"
       height="40"
       style="pointer-events: none"
@@ -106,19 +96,28 @@ A small ionic angular typescript mobile application for generating & saving labo
       height="40"
       style="pointer-events: none"
 />
+<img
+      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/xcode/xcode-original.svg"
+      alt="Xcode"
+      width="40"
+      height="40"
+      style="pointer-events: none"
+/>
 
 ***
 
 ### Project Notes
 
-**Development Time: 1 Week**
+**Development Time: 2 Days**
 
-My first ever (Android) mobile application.
-
-Needed a lazy way to send specific templated labour invoices each week to my employer.
+Made for a friend who is a big fan of pokemon
 
 ***
 
-#### App Preview
-![Invoice Preview](https://user-images.githubusercontent.com/60028961/209337358-8c4b4c27-d61b-45db-8d28-bbc9630bb7c7.jpg){:data-align="left"}{:width="350px"}
-![Invoice List](https://user-images.githubusercontent.com/60028961/209335614-5ad2d78f-98ec-4d9d-887f-fadcac05a01f.jpg){:data-align="right"}{:width="350px"}
+#### App Demo & Images
+![home](:q.jpg){:data-align="left"}{:width="350px"}
+![search](:search.jpg){:data-align="right"}{:width="355px"}
+
+![pika](:pika.jpg){:data-align="left"}{:width="350px"}
+![eevee](:eevee.jpg){:data-align="right"}{:width="355px"}
+

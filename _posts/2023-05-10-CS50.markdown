@@ -1,7 +1,7 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
-lng_pair: id_Invoice
-title: Labour Invoice Generator
+lng_pair: id_CS50
+title: CS50x Final project
 
 # post specific
 # if not specified, .name will be used from _data/owner/[language].yml
@@ -9,14 +9,14 @@ author: Liam Whittle
 # multiple category is not supported
 category: Angular
 # multiple tag entries are possible
-tags: [Angular, Mobile App, Finance]
+tags: [Angular, Desktop App, NET Core, SQLServer]
 # thumbnail image for post
-img: ":inv.jpg"
+img: ":CS50.png"
 # disable comments on this page
 #comments_disable: true
 
 # publish date
-date: 2022-12-20 00:00:00 +0900
+date: 2023-05-10 00:00:00 +0900
 
 # seo
 # if not specified, date will be used.
@@ -34,24 +34,21 @@ date: 2022-12-20 00:00:00 +0900
 # exclude from search engines
 #search_engine_exclude: true
 # to disable this page, simply set published: false or delete this file
-#published: false
+published: false
 ---
 
 <!-- outline-start -->
 
-A small ionic angular typescript mobile application for generating & saving labour invoices.
+A useful desktop application for tracking birthdays & sending automated messages. Final project to the harvard CS50x onine course
 
 <!-- outline-end -->
 
-***
-
-
 {:data-align="center"}
-![invoice generator](:invc.jpg){:data-align="center"}
+![CS50x](:CS50.png){:data-align="center"}
 
 ### Github
 
-- [Labour Invoice Generator](https://github.com/Liam-Whittle/labour-invoice-generator)
+- [Final Project](https://github.com/Liam-Whittle/french-logger-translator)
 
 ***
 
@@ -113,12 +110,13 @@ A small ionic angular typescript mobile application for generating & saving labo
 
 **Development Time: 1 Week**
 
-My first ever (Android) mobile application.
+Application for the CS50x course final project.
 
-Needed a lazy way to send specific templated labour invoices each week to my employer.
+<a href="https://cs50.harvard.edu/x/2024/project/">CS50x Final project requirements<a>
 
 ***
 
-#### App Preview
-![Invoice Preview](https://user-images.githubusercontent.com/60028961/209337358-8c4b4c27-d61b-45db-8d28-bbc9630bb7c7.jpg){:data-align="left"}{:width="350px"}
-![Invoice List](https://user-images.githubusercontent.com/60028961/209335614-5ad2d78f-98ec-4d9d-887f-fadcac05a01f.jpg){:data-align="right"}{:width="350px"}
+#### App Demo & Images
+![](){:data-align="left"}{:width="350px"}
+![](){:data-align="right"}{:width="355px"}
+

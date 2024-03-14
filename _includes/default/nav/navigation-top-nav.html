@@ -19,9 +19,6 @@
   {%- if site.data.lang.size > 1 and site.data.conf.main.language_switch_lang_list.size > 1 and site.data.conf.main.language_switch_top_nav %}
     {% include default/nav/lang-switch.html -%}
   {% endif %}
-  {% if site.data.conf.main.color_scheme_dark and site.data.conf.main.color_scheme_switch_top_nav -%}
-    {%- include default/nav/color-scheme-switch.html switch_id="color_scheme_switch_top" effect = site.data.conf.main.color_scheme_switch_top_nav_hover_effect -%}
-  {%- endif %}
   {% unless site.data.conf.main.side_nav_toggle_button_no_top_nav_buttons -%}
   <div class="collapse navbar-collapse top-nav-buttons" id="id_top-nav-menu-toggle">
     <ul class="nav nav-pills">

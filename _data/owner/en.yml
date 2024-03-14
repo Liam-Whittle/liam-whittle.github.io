@@ -2,7 +2,7 @@
 # Owner's Personal Information
 ###########################################################
 # This is your brand name
-brand: "Project Journal"
+brand: "Apps & Projects"
 
 # text below the brand name
 brand_sub_text: "Liam C. W."
@@ -19,7 +19,7 @@ home:
 
 # if you don't want to add copyright year, comment or leave it blank.
 # the year during which the claimed copyright for the work was first asserted.
-copyright_start_year: "2023"
+copyright_start_year: "2022"
 
 # make sure creative_commons.enable is true in _data/conf/main.yml file
 creative_commons:
